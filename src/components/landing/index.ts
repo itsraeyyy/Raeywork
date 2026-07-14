@@ -1,0 +1,10 @@
+export { Navbar } from "./navbar";
+export { Hero } from "./hero";
+export { SocialProof } from "./social-proof";
+export { Quickstart } from "./quickstart";
+export { Workflow } from "./workflow";
+export { Integrations } from "./integrations";
+export { Architecture } from "./architecture";
+export { Shortcuts } from "./shortcuts";
+export { FinalCTA } from "./final-cta";
+export { Footer } from "./footer";
