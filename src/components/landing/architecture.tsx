@@ -10,7 +10,7 @@ export function Architecture() {
       <div className="max-w-6xl mx-auto relative z-10">
         <div className="mb-16 md:mb-24 text-center md:text-left">
           <h2 className="text-sm font-semibold uppercase tracking-widest text-[#06b6d4] mb-4">Architecture</h2>
-          <h3 className="text-4xl md:text-5xl font-semibold tracking-tight">Everything you need to debug visually.</h3>
+          <h3 className="text-4xl md:text-5xl font-semibold tracking-tighter">Everything you need to debug visually.</h3>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">

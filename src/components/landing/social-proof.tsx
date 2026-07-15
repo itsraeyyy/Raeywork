@@ -22,8 +22,8 @@ export function SocialProof() {
       
       <div className="flex flex-wrap items-center justify-center gap-12 md:gap-20 max-w-5xl">
         {frameworks.map((framework, i) => (
-          <div key={i} className="flex items-center gap-3 grayscale opacity-50 hover:grayscale-0 hover:opacity-100 transition-all duration-500 group cursor-default">
-            <framework.icon className="w-6 h-6 text-foreground/80 group-hover:text-foreground transition-colors duration-500" />
+          <div key={i} className="flex items-center gap-3 text-[#666666] hover:text-foreground transition-all duration-500 group cursor-default">
+            <framework.icon className="w-6 h-6 transition-colors duration-500" />
             <span className="font-medium text-[15px] tracking-tight">{framework.name}</span>
           </div>
         ))}

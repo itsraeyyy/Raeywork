@@ -2,7 +2,7 @@
 @import "tw-animate-css";
 @import "shadcn/tailwind.css";
 
-@custom-variant dark (&:is(.dark *));
+@variant dark (&:where(.dark, .dark *));
 
 @theme inline {
   --color-background: var(--background);
@@ -86,21 +86,21 @@
 .dark {
   --background: #000000;
   --foreground: #FAFAF9;
-  --card: #000000;
+  --card: #0A0A0A;
   --card-foreground: #FAFAF9;
-  --popover: #000000;
+  --popover: #0A0A0A;
   --popover-foreground: #FAFAF9;
   --primary: #FAFAF9;
   --primary-foreground: #1C1917;
   --secondary: #292524;
   --secondary-foreground: #FAFAF9;
-  --muted: #292524;
-  --muted-foreground: #A6A09B;
-  --accent: #292524;
+  --muted: #1A1A1A;
+  --muted-foreground: #8F8F8F;
+  --accent: #1A1A1A;
   --accent-foreground: #FAFAF9;
   --destructive: #82181A;
-  --border: #292524;
-  --input: #292524;
+  --border: #1A1A1A;
+  --input: #1A1A1A;
   --ring: #79716B;
   --chart-1: oklch(0.87 0 0);
   --chart-2: oklch(0.556 0 0);
@@ -108,13 +108,13 @@
   --chart-4: oklch(0.371 0 0);
   --chart-5: oklch(0.269 0 0);
   --radius: 0.2rem;
-  --sidebar: #000000;
+  --sidebar: #0A0A0A;
   --sidebar-foreground: #FAFAF9;
   --sidebar-primary: #FAFAF9;
   --sidebar-primary-foreground: #1C1917;
-  --sidebar-accent: #292524;
+  --sidebar-accent: #1A1A1A;
   --sidebar-accent-foreground: #FAFAF9;
-  --sidebar-border: #292524;
+  --sidebar-border: #1A1A1A;
   --sidebar-ring: #79716B;
 }
 

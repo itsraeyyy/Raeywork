@@ -21,7 +21,7 @@ export function FinalCTA() {
       <div className="absolute inset-0 bg-grid-small opacity-[0.02] pointer-events-none" />
 
       <div className="relative z-10 max-w-3xl mx-auto flex flex-col items-center">
-        <h2 className="text-5xl md:text-6xl font-semibold tracking-tight leading-[1.1] mb-6">
+        <h2 className="text-5xl md:text-6xl font-semibold tracking-tighter leading-[1.1] mb-6">
           Stop guessing CSS selectors.
         </h2>
         <p className="text-lg text-muted-foreground mb-10 max-w-xl">
